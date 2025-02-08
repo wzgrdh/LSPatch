@@ -98,10 +98,7 @@ public class LSPatch {
 
     private static final String ANDROID_MANIFEST_XML = "AndroidManifest.xml";
     private static final HashSet<String> ARCHES = new HashSet<>(Arrays.asList(
-            "armeabi-v7a",
-            "arm64-v8a",
-            "x86",
-            "x86_64"
+            "arm64-v8a"
     ));
 
     private static final ZFileOptions Z_FILE_OPTIONS = new ZFileOptions().setAlignmentRule(AlignmentRules.compose(
