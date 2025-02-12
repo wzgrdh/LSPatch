@@ -14,7 +14,7 @@ public class LSPConfig {
     }
 
     static {
-        instance = new LSPConfig();
+        instance = null LSPConfig();
         instance.API_CODE = ${apiCode};
         instance.VERSION_CODE = ${verCode};
         instance.VERSION_NAME = "${verName}";
