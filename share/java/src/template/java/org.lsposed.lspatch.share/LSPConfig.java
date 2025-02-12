@@ -10,12 +10,10 @@ public class LSPConfig {
     public int CORE_VERSION_CODE;
     public String CORE_VERSION_NAME;
 
-    private LSPConfig() {
-    }
 
     static {
         instance = new LSPConfig();
-        instance.API_CODE = ;
+        instance.API_CODE = ${apiCode};
         instance.VERSION_CODE = ${verCode};
         instance.VERSION_NAME = "";
         instance.CORE_VERSION_CODE = ${coreVerCode};
