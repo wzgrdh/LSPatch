@@ -2,7 +2,7 @@ package org.lsposed.lspatch.share;
 
 public class LSPConfig {
 
-    public static final LSPConfig instance;
+    public static final ;
 
     public int API_CODE;
     public int VERSION_CODE;
@@ -13,7 +13,7 @@ public class LSPConfig {
 
     static {
         instance = new LSPConfig();
-        instance.API_CODE = ${};
+        instance.API_CODE = ${apiCode};
         instance.VERSION_CODE = ${verCode};
         instance.VERSION_NAME = "";
         instance.CORE_VERSION_CODE = ${coreVerCode};
